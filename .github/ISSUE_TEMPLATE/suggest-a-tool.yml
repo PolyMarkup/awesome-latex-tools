@@ -1,0 +1,74 @@
+name: Suggest a tool or resource
+description: Suggest a LaTeX tool, platform or resource for the list.
+title: "Suggest: "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official link
+      description: Website or repository.
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Online Editors & Platforms
+        - Desktop Editors & IDEs
+        - TeX Distributions & Docker Images
+        - Engines & Build Tools
+        - Modern Alternatives & Companions
+        - Converters
+        - Math, Equations & OCR
+        - Tables
+        - Diagrams, Plots & Graphics
+        - Linters, Formatters & Checkers
+        - Bibliography
+        - Templates & Document Classes
+        - Packages & CTAN Lookups
+        - Learning Resources
+        - AI-Assisted Tools
+        - Communities & Forums
+        - Other (new category)
+    validations:
+      required: true
+  - type: dropdown
+    id: license
+    attributes:
+      label: License model
+      options:
+        - OSS (open source)
+        - Free (free of charge, not open source)
+        - Freemium
+        - Proprietary
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-sentence description
+      description: Neutral wording, no marketing language.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it belong on the list?
+      description: What problem does it solve, and is it maintained?
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checks
+      options:
+        - label: I searched the list and the tool is not already included.
+          required: true
+        - label: I am affiliated with this project (please say how in the box above).

@@ -1,0 +1,17 @@
+name: Report a dead link or wrong entry
+description: A link is broken, a project is abandoned, or a description or tag is wrong.
+title: "Fix: "
+labels: ["maintenance"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+    validations:
+      required: true
