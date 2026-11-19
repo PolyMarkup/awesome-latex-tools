@@ -13,7 +13,7 @@ Entries are tagged by license model: `OSS` (open source), `Free` (free of charge
 - [TeX Distributions & Docker Images](#tex-distributions--docker-images) (8)
 - [Engines & Build Tools](#engines--build-tools) (17)
 - [Modern Alternatives & Companions](#modern-alternatives--companions) (8)
-- [Converters](#converters) (7)
+- [Converters](#converters) (8)
 - [Math, Equations & OCR](#math-equations--ocr) (14)
 - [Tables](#tables) (6)
 - [Diagrams, Plots & Graphics](#diagrams-plots--graphics) (22)
@@ -148,6 +148,7 @@ Entries are tagged by license model: `OSS` (open source), `Free` (free of charge
 - [MiTeX](https://github.com/mitex-rs/mitex) - Lets you use LaTeX math and commands inside Typst documents. `OSS`
 - [Pandoc](https://pandoc.org) - Universal document converter supporting LaTeX, Markdown, Word, HTML and many other formats. `OSS`
 - [TeX4ht](https://tug.org/tex4ht/) - Converts TeX and LaTeX documents to HTML, XML and other formats. `OSS`
+- [Word to LaTeX Converter](https://extensionguy.me/word-to-latex-converter/) - Converts DOCX documents to LaTeX in the browser using Pandoc WebAssembly, without uploading documents. `Free`
 
 ## Math, Equations & OCR
 
