@@ -351,6 +351,7 @@ AI features also appear elsewhere: see [Overleaf](#online-editors--platforms) an
 
 - [Nougat](https://github.com/facebookresearch/nougat) - Neural OCR model that converts scanned academic documents into a markup language. `OSS`
 - [Overleaf AI Assist](https://www.overleaf.com/about/ai-features) - Overleaf's AI features for writing help and LaTeX error explanations. `Freemium`
+- [Overleaf MCP](https://github.com/yangzichao/mcp-server-overleaf) - Local integration for AI assistants to edit and compile shared LaTeX projects in Overleaf with conflict checks before publishing. `OSS`
 - [PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) - Translates scientific PDFs with formulas and layout preserved, using LLM or MT back ends. `OSS`
 - [Writefull](https://www.writefull.com) - AI writing assistant for academic text with an Overleaf integration. `Freemium`
 
